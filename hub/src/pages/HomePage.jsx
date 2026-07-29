@@ -129,13 +129,6 @@ function HomePage() {
   {post.category || "Discussion"}
 </span>
 
-{post.image_url && (
-  <img
-    className="post-preview-image"
-    src={post.image_url}
-    alt={post.title}
-  />
-)}
 
                   <p className="post-meta">
                     Submitted on{" "}
