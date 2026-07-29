@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router";
+import { supabase } from "./lib/supabase";
 
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
